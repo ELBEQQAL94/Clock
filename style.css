@@ -1,0 +1,39 @@
+/* Start Main Rules */
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html, body {
+    padding: 0;
+    margin: 0;
+    background: url(pexels-photo-110854.jpeg) no-repeat;
+    background-size: cover;
+    font-family: 'Ranga', cursive;
+}
+h1 {
+    text-transform: uppercase;
+    font-size: 7.3em;
+    text-align: center;
+    color:#f2395a; 
+}
+.box {
+    position: relative;
+    width: 100%;
+    height: auto;
+    color: #f2395a;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    margin: 20px auto;
+}
+.clock {
+    position: absolute;
+    width: 45%;
+    text-align: center;
+    border: 9px solid rgb(250, 163, 2);
+    left: 30%;
+    padding: 8px;
+    font-size: 5em;
+}
+/* End Main Rules */
